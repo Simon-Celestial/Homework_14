@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  align-items: center;
+  background-color: gray;
+  font-family: Sedgwick Ave Display, sans-serif;
+}
+
+.tab-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-menu-container {
+  width: 860px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  display: flex;
+  background-color: #ebebeb;
+}
+.tab-menu-container > div {
+  padding: 20px 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.tab-menu-container > div:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.tab-menu-content {
+  display: flex;
+  width: 860px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  padding: 20px;
+  background-color: #ebebeb;
+}
+.tab-menu-content > div {
+  display: none;
+  color: black;
+  line-height: 25px;
+  font-size: 20px;
+}
+.tab-menu-content img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border: 5px solid black;
+}
+
+.active {
+  background-color: greenyellow;
+}
+
+.show {
+  display: block !important;
+}/*# sourceMappingURL=style.css.map */
