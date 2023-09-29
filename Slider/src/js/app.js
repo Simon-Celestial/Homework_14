@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
         sliderContainer = document.getElementById("sliderContainer");
 
     let imgs = [
-        "./images/hero1.jpg",
-        "./images/hero2.jpg",
-        "./images/hero3.webp",
-        "./images/hero4.webp",
-        "./images/hero5.jpg",
-        "./images/hero6.jpg",
-        "./images/hero7.jpg"
+        "./src/images/hero1.jpg",
+        "./src/images/hero2.jpg",
+        "./src/images/hero3.webp",
+        "./src/images/hero4.webp",
+        "./src/images/hero5.jpg",
+        "./src/images/hero6.jpg",
+        "./src/images/hero7.jpg"
     ];
 
     let intervalID;
